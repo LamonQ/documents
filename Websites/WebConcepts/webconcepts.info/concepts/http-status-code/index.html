@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<!-- Mirrored from webconcepts.info/concepts/http-status-code/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:26:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTTP Status Codes</title>
+    <meta name="description" content="Concepts that matter for the Web. Document your APIs by documenting their Web Concepts.
+">
+
+  <link rel="shortcut icon" type="image/png" href="../../favicon-32x32.png" sizes="32x32" />
+  <link rel="shortcut icon" type="image/png" href="../../favicon-16x16.png" sizes="16x16" />
+
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="canonical" href="index.html">
+  <!-- <link rel="alternate" type="application/rss+xml" title="Web Concepts" href="https://webconcepts.info/feed.xml"> -->
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <a href="https://github.com/dret/webconcepts"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../../forkme.png" alt="Fork me on GitHub"></a>
+  <div class="wrapper">
+    <a class="site-title" href="../../index.html">Web Concepts</a>
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        <a class="page-link" href="../index.html" title="Web Concepts">Concepts</a>
+        <a class="page-link" href="../../specs/index.html" title="Specifications">Specs</a>
+        <a class="page-link" href="../../JSON.html" title="JSON Documentation">JSON</a>
+        <a class="page-link" href="../../forking.html" title="Forking Web Concepts">Forking</a>
+        <a class="page-link" href="../../history.html" title="History of all News Items">News</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">HTTP Status Codes</h1>
+  </header>
+
+  <div class="post-content">
+    <p>The following 63 HTTP Status Code values were found in <a href="https://webconcepts.info/specs">all available <code class="language-plaintext highlighter-rouge">webconcepts.info</code> specifications</a>. Please be advised that the table shown here is maintained and compiled from <a href="../../index.html">Web Concepts</a> sources. The <a href="http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml">official HTTP Status Code registry</a> is maintained by the <a href="http://www.iana.org/"><em>Internet Assigned Numbers Authority (IANA)</em></a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">HTTP Status Code</th>
+      <th style="text-align: left">Specification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/100" title="The 100 (Continue) status code indicates that the initial part of a request has been received and has not yet been rejected by the server. The server intends to send a final response after the request has been fully received and acted upon."><code class="language-plaintext highlighter-rouge">100 Continue</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/101" title="The 101 (Switching Protocols) status code indicates that the server understands and is willing to comply with the client's request, via the Upgrade header field, for a change in the application protocol being used on this connection. The server MUST generate an Upgrade header field in the response that indicates which protocol(s) will be switched to immediately after the empty line that terminates the 101 response."><code class="language-plaintext highlighter-rouge">101 Switching Protocols</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/102" title="The 102 (Processing) status code is an interim response used to inform the client that the server has accepted the complete request, but has not yet completed it. This status code SHOULD only be sent when the server has a reasonable expectation that the request will take significant time to complete. As guidance, if a method is taking longer than 20 seconds (a reasonable, but arbitrary value) to process the server SHOULD return a 102 (Processing) response. The server MUST send a final response after the request has been completed."><code class="language-plaintext highlighter-rouge">102 Processing</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/2518" title="This document specifies a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 2518</strong>: HTTP Extensions for Distributed Authoring - WEBDAV</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/103" title="The 103 (Early Hints) status code indicates the client that the server is likely to send a final request with the headers included in the informational response."><code class="language-plaintext highlighter-rouge">103 Early Hints</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/8297" title="This memo introduces an informational status code for HTTP that can be used for indicating hints to help a client start making preparations for processing the final response."><strong>RFC 8297</strong>: An HTTP Status Code for Indicating Hints</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/200" title="The 200 (OK) status code indicates that the request has succeeded. The payload sent in a 200 response depends on the request method."><code class="language-plaintext highlighter-rouge">200 OK</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/201" title="The 201 (Created) status code indicates that the request has been fulfilled and has resulted in one or more new resources being created. The primary resource created by the request is identified by either a Location header field in the response or, if no Location field is received, by the effective request URI."><code class="language-plaintext highlighter-rouge">201 Created</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/202" title="The 202 (Accepted) status code indicates that the request has been accepted for processing, but the processing has not been completed. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place. There is no facility in HTTP for re-sending a status code from an asynchronous operation."><code class="language-plaintext highlighter-rouge">202 Accepted</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/203" title="The 203 (Non-Authoritative Information) status code indicates that the request was successful but the enclosed payload has been modified from that of the origin server's 200 (OK) response by a transforming proxy."><code class="language-plaintext highlighter-rouge">203 Non-Authoritative Information</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/204" title="The 204 (No Content) status code indicates that the server has successfully fulfilled the request and that there is no additional content to send in the response payload body. Metadata in the response header fields refer to the target resource and its selected representation after the requested action was applied."><code class="language-plaintext highlighter-rouge">204 No Content</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/205" title="The 205 (Reset Content) status code indicates that the server has fulfilled the request and desires that the user agent reset the &#34;document view&#34;, which caused the request to be sent, to its original state as received from the origin server."><code class="language-plaintext highlighter-rouge">205 Reset Content</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/206" title="The 206 (Partial Content) status code indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the request's Range header field."><code class="language-plaintext highlighter-rouge">206 Partial Content</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7233" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines range requests and the rules for constructing and combining responses to those requests."><strong>RFC 7233</strong>: Hypertext Transfer Protocol (HTTP/1.1): Range Requests</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/207" title="The 207 (Multi-Status) status code provides status for multiple independent operations."><code class="language-plaintext highlighter-rouge">207 Multi-Status</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/4918" title="Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 4918</strong>: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/208" title="The 208 (Already Reported) status code can be used inside a DAV: propstat response element to avoid enumerating the internal members of multiple bindings to the same collection repeatedly. For each binding to a collection inside the request's scope, only one will be reported with a 200 status, while subsequent DAV:response elements for all other bindings will use the 208 status, and no DAV:response elements for their descendants are included."><code class="language-plaintext highlighter-rouge">208 Already Reported</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/5842" title="This specification defines bindings, and the BIND method for creating multiple bindings to the same resource. Creating a new binding to a resource causes at least one new URI to be mapped to that resource. Servers are required to ensure the integrity of any bindings that they allow to be created."><strong>RFC 5842</strong>: Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/226" title="The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance. The actual current instance might not be available except by combining this response with other previous or future responses, as appropriate for the specific instance-manipulation(s)."><code class="language-plaintext highlighter-rouge">226 IM Used</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/3229" title="This document describes how delta encoding can be supported as a compatible extension to HTTP/1.1. Many HTTP (Hypertext Transport Protocol) requests cause the retrieval of slightly modified instances of resources for which the client already has a cache entry. Research has shown that such modifying updates are frequent, and that the modifications are typically much smaller than the actual entity. In such cases, HTTP would make more efficient use of network bandwidth if it could transfer a minimal description of the changes, rather than the entire new instance of the resource. This is called &#34;delta encoding.&#34;"><strong>RFC 3229</strong>: Delta encoding in HTTP</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/300" title="The 300 (Multiple Choices) status code indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. In other words, the server desires that the user agent engage in reactive negotiation to select the most appropriate representation(s) for its needs."><code class="language-plaintext highlighter-rouge">300 Multiple Choices</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/301" title="The 301 (Moved Permanently) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. Clients with link-editing capabilities ought to automatically re-link references to the effective request URI to one or more of the new references sent by the server, where possible."><code class="language-plaintext highlighter-rouge">301 Moved Permanently</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/302" title="The 302 (Found) status code indicates that the target resource resides temporarily under a different URI. Since the redirection might be altered on occasion, the client ought to continue to use the effective request URI for future requests."><code class="language-plaintext highlighter-rouge">302 Found</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/303" title="The 303 (See Other) status code indicates that the server is redirecting the user agent to a different resource, as indicated by a URI in the Location header field, which is intended to provide an indirect response to the original request. A user agent can perform a retrieval request targeting that URI (a GET or HEAD request if using HTTP), which might also be redirected, and present the eventual result as an answer to the original request. Note that the new URI in the Location header field is not considered equivalent to the effective request URI."><code class="language-plaintext highlighter-rouge">303 See Other</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/304" title="The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the payload of a 200 (OK) response."><code class="language-plaintext highlighter-rouge">304 Not Modified</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7232" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines HTTP/1.1 conditional requests, including metadata header fields for indicating state changes, request header fields for making preconditions on such state, and rules for constructing the responses to a conditional request when one or more preconditions evaluate to false."><strong>RFC 7232</strong>: Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/305" title="The 305 (Use Proxy) status code was defined in a previous version of HTTP/1.1 and is now deprecated."><code class="language-plaintext highlighter-rouge">305 Use Proxy</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/306" title="The 306 status code was defined in a previous version of HTTP/1.1, is no longer used, and the code is reserved."><code class="language-plaintext highlighter-rouge">306 Unused</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/307" title="The 307 (Temporary Redirect) status code indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Since the redirection can change over time, the client ought to continue using the original effective request URI for future requests."><code class="language-plaintext highlighter-rouge">307 Temporary Redirect</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/308" title="The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs."><code class="language-plaintext highlighter-rouge">308 Permanent Redirect</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7538" title="This document specifies the additional Hypertext Transfer Protocol (HTTP) status code 308 (Permanent Redirect)."><strong>RFC 7538</strong>: The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/400" title="The 400 (Bad Request) status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."><code class="language-plaintext highlighter-rouge">400 Bad Request</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/401" title="The 401 (Unauthorized) status code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource. The server generating a 401 response MUST send a WWW-Authenticate header field (Section 4.1) containing at least one challenge applicable to the target resource."><code class="language-plaintext highlighter-rouge">401 Unauthorized</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7235" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This document defines the HTTP Authentication framework."><strong>RFC 7235</strong>: Hypertext Transfer Protocol (HTTP/1.1): Authentication</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/402" title="The 402 (Payment Required) status code is reserved for future use."><code class="language-plaintext highlighter-rouge">402 Payment Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/403" title="The 403 (Forbidden) status code indicates that the server understood the request but refuses to authorize it. A server that wishes to make public why the request has been forbidden can describe that reason in the response payload (if any)."><code class="language-plaintext highlighter-rouge">403 Forbidden</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/404" title="The 404 (Not Found) status code indicates that the origin server did not find a current representation for the target resource or is not willing to disclose that one exists. A 404 status code does not indicate whether this lack of representation is temporary or permanent; the 410 (Gone) status code is preferred over 404 if the origin server knows, presumably through some configurable means, that the condition is likely to be permanent."><code class="language-plaintext highlighter-rouge">404 Not Found</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/405" title="The 405 (Method Not Allowed) status code indicates that the method received in the request-line is known by the origin server but not supported by the target resource. The origin server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods."><code class="language-plaintext highlighter-rouge">405 Method Not Allowed</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/406" title="The 406 (Not Acceptable) status code indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request, and the server is unwilling to supply a default representation."><code class="language-plaintext highlighter-rouge">406 Not Acceptable</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/407" title="The 407 (Proxy Authentication Required) status code is similar to 401 (Unauthorized), but it indicates that the client needs to authenticate itself in order to use a proxy. The proxy MUST send a Proxy-Authenticate header field containing a challenge applicable to that proxy for the target resource. The client MAY repeat the request with a new or replaced Proxy-Authorization header field."><code class="language-plaintext highlighter-rouge">407 Proxy Authentication Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7235" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This document defines the HTTP Authentication framework."><strong>RFC 7235</strong>: Hypertext Transfer Protocol (HTTP/1.1): Authentication</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/408" title="The 408 (Request Timeout) status code indicates that the server did not receive a complete request message within the time that it was prepared to wait. A server SHOULD send the &#34;close&#34; connection option in the response, since 408 implies that the server has decided to close the connection rather than continue waiting. If the client has an outstanding request in transit, the client MAY repeat that request on a new connection."><code class="language-plaintext highlighter-rouge">408 Request Timeout</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/409" title="The 409 (Conflict) status code indicates that the request could not be completed due to a conflict with the current state of the target resource. This code is used in situations where the user might be able to resolve the conflict and resubmit the request. The server SHOULD generate a payload that includes enough information for a user to recognize the source of the conflict."><code class="language-plaintext highlighter-rouge">409 Conflict</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/410" title="The 410 (Gone) status code indicates that access to the target resource is no longer available at the origin server and that this condition is likely to be permanent. If the origin server does not know, or has no facility to determine, whether or not the condition is permanent, the status code 404 (Not Found) ought to be used instead."><code class="language-plaintext highlighter-rouge">410 Gone</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/411" title="The 411 (Length Required) status code indicates that the server refuses to accept the request without a defined Content-Length. The client MAY repeat the request if it adds a valid Content-Length header field containing the length of the message body in the request message."><code class="language-plaintext highlighter-rouge">411 Length Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/412" title="The 412 (Precondition Failed) status code indicates that one or more conditions given in the request header fields evaluated to false when tested on the server. This response code allows the client to place preconditions on the current resource state (its current representations and metadata) and, thus, prevent the request method from being applied if the target resource is in an unexpected state."><code class="language-plaintext highlighter-rouge">412 Precondition Failed</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7232" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines HTTP/1.1 conditional requests, including metadata header fields for indicating state changes, request header fields for making preconditions on such state, and rules for constructing the responses to a conditional request when one or more preconditions evaluate to false."><strong>RFC 7232</strong>: Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/413" title="The 413 (Payload Too Large) status code indicates that the server is refusing to process a request because the request payload is larger than the server is willing or able to process. The server MAY close the connection to prevent the client from continuing the request."><code class="language-plaintext highlighter-rouge">413 Payload Too Large</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/414" title="The 414 (URI Too Long) status code indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret."><code class="language-plaintext highlighter-rouge">414 URI Too Long</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/415" title="The 415 (Unsupported Media Type) status code indicates that the origin server is refusing to service the request because the payload is in a format not supported by this method on the target resource. The format problem might be due to the request's indicated Content-Type or Content-Encoding, or as a result of inspecting the data directly."><code class="language-plaintext highlighter-rouge">415 Unsupported Media Type</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/416" title="The 416 (Range Not Satisfiable) status code indicates that none of the ranges in the request's Range header field (Section 3.1) overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges."><code class="language-plaintext highlighter-rouge">416 Range Not Satisfiable</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7233" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines range requests and the rules for constructing and combining responses to those requests."><strong>RFC 7233</strong>: Hypertext Transfer Protocol (HTTP/1.1): Range Requests</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/417" title="The 417 (Expectation Failed) status code indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers."><code class="language-plaintext highlighter-rouge">417 Expectation Failed</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/418" title="Any attempt to brew coffee with a teapot should result in the error code &#34;418 I'm a teapot&#34;. The resulting entity body MAY be short and stout."><code class="language-plaintext highlighter-rouge">418 I'm a teapot</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/2324" title="This document describes HTCPCP, a protocol for controlling, monitoring, and diagnosing coffee pots."><strong>RFC 2324</strong>: Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/421" title="The 421 (Misdirected Request) status code indicates that the request was directed at a server that is not able to produce a response. This can be sent by a server that is not configured to produce responses for the combination of scheme and authority that are included in the request URI."><code class="language-plaintext highlighter-rouge">421 Misdirected Request</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7540" title="This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients. This specification is an alternative to, but does not obsolete, the HTTP/1.1 message syntax. HTTP's existing semantics remain unchanged."><strong>RFC 7540</strong>: Hypertext Transfer Protocol Version 2</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/422" title="The 422 (Unprocessable Entity) status code means the server understands the content type of the request entity (hence a 415 (Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions. For example, this error condition may occur if an XML request body contains well-formed (i.e., syntactically correct), but semantically erroneous, XML instructions."><code class="language-plaintext highlighter-rouge">422 Unprocessable Entity</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/4918" title="Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 4918</strong>: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/423" title="The 423 (Locked) status code means the source or destination resource of a method is locked. This response SHOULD contain an appropriate precondition or postcondition code, such as 'lock-token-submitted' or 'no-conflicting-lock'."><code class="language-plaintext highlighter-rouge">423 Locked</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/4918" title="Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 4918</strong>: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/424" title="The 424 (Failed Dependency) status code means that the method could not be performed on the resource because the requested action depended on another action and that action failed. For example, if a command in a PROPPATCH method fails, then, at minimum, the rest of the commands will also fail with 424 (Failed Dependency)."><code class="language-plaintext highlighter-rouge">424 Failed Dependency</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/4918" title="Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 4918</strong>: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/425" title="A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed. User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data."><code class="language-plaintext highlighter-rouge">425 Too Early</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/8470" title="Using TLS early data creates an exposure to the possibility of a replay attack. This document defines mechanisms that allow clients to communicate with servers about HTTP requests that are sent in early data. Techniques are described that use these mechanisms to mitigate the risk of replay."><strong>RFC 8470</strong>: Using Early Data in HTTP</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/426" title="The 426 (Upgrade Required) status code indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. The server MUST send an Upgrade header field in a 426 response to indicate the required protocol(s)."><code class="language-plaintext highlighter-rouge">426 Upgrade Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/428" title="The 428 status code indicates that the origin server requires the request to be conditional."><code class="language-plaintext highlighter-rouge">428 Precondition Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/6585" title="This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations."><strong>RFC 6585</strong>: Additional HTTP Status Codes</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/429" title="The 429 status code indicates that the user has sent too many requests in a given amount of time (&#34;rate limiting&#34;)."><code class="language-plaintext highlighter-rouge">429 Too Many Requests</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/6585" title="This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations."><strong>RFC 6585</strong>: Additional HTTP Status Codes</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/431" title="The 431 status code indicates that the server is unwilling to process the request because its header fields are too large. The request MAY be resubmitted after reducing the size of the request header fields."><code class="language-plaintext highlighter-rouge">431 Request Header Fields Too Large</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/6585" title="This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations."><strong>RFC 6585</strong>: Additional HTTP Status Codes</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/451" title="This status code indicates that the server is denying access to the resource as a consequence of a legal demand. The server in question might not be an origin server. This type of legal demand typically most directly affects the operations of ISPs and search engines."><code class="language-plaintext highlighter-rouge">451 Unavailable For Legal Reasons</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7725" title="This document specifies a Hypertext Transfer Protocol (HTTP) status code for use when resource access is denied as a consequence of legal demands."><strong>RFC 7725</strong>: An HTTP Status Code to Report Legal Obstacles</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/500" title="The 500 (Internal Server Error) status code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request."><code class="language-plaintext highlighter-rouge">500 Internal Server Error</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/501" title="The 501 (Not Implemented) status code indicates that the server does not support the functionality required to fulfill the request. This is the appropriate response when the server does not recognize the request method and is not capable of supporting it for any resource."><code class="language-plaintext highlighter-rouge">501 Not Implemented</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/502" title="The 502 (Bad Gateway) status code indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request."><code class="language-plaintext highlighter-rouge">502 Bad Gateway</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/503" title="The 503 (Service Unavailable) status code indicates that the server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay. The server MAY send a Retry-After header field to suggest an appropriate amount of time for the client to wait before retrying the request."><code class="language-plaintext highlighter-rouge">503 Service Unavailable</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/504" title="The 504 (Gateway Timeout) status code indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request."><code class="language-plaintext highlighter-rouge">504 Gateway Timeout</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/505" title="The 505 (HTTP Version Not Supported) status code indicates that the server does not support, or refuses to support, the major version of HTTP that was used in the request message. The server is indicating that it is unable or unwilling to complete the request using the same major version as the client, other than with this error message. The server SHOULD generate a representation for the 505 response that describes why that version is not supported and what other protocols are supported by that server."><code class="language-plaintext highlighter-rouge">505 HTTP Version Not Supported</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/7231" title="The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypertext information systems. This document defines the semantics of HTTP/1.1 messages as expressed by request methods, request header fields, response status codes, and response header fields, along with the payload of messages (metadata and body content) and mechanisms for content negotiation."><strong>RFC 7231</strong>: Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/506" title="The 506 status code indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process."><code class="language-plaintext highlighter-rouge">506 Variant Also Negotiates</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/2295" title="HTTP allows web site authors to put multiple versions of the same information under a single URL. Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed. This enables the smooth deployment of new web data formats and markup tags."><strong>RFC 2295</strong>: Transparent Content Negotiation in HTTP</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/507" title="The 507 (Insufficient Storage) status code means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request. This condition is considered to be temporary. If the request that received this status code was the result of a user action, the request MUST NOT be repeated until it is requested by a separate user action."><code class="language-plaintext highlighter-rouge">507 Insufficient Storage</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/4918" title="Web Distributed Authoring and Versioning (WebDAV) consists of a set of methods, headers, and content-types ancillary to HTTP/1.1 for the management of resource properties, creation and management of resource collections, URL namespace manipulation, and resource locking (collision avoidance)."><strong>RFC 4918</strong>: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/508" title="The 508 (Loop Detected) status code indicates that the server terminated an operation because it encountered an infinite loop while processing a request with &#34;Depth: infinity&#34;. This status indicates that the entire operation failed."><code class="language-plaintext highlighter-rouge">508 Loop Detected</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/5842" title="This specification defines bindings, and the BIND method for creating multiple bindings to the same resource. Creating a new binding to a resource causes at least one new URI to be mapped to that resource. Servers are required to ensure the integrity of any bindings that they allow to be created."><strong>RFC 5842</strong>: Binding Extensions to Web Distributed Authoring and Versioning (WebDAV)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/510" title="The policy for accessing the resource has not been met in the request. The server should send back all the information necessary for the client to issue an extended request. It is outside the scope of this specification to specify how the extensions inform the client."><code class="language-plaintext highlighter-rouge">510 Not Extended</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/2774" title="A wide range of applications have proposed various extensions of the HTTP protocol. Current efforts span an enormous range, including distributed authoring, collaboration, printing, and remote procedure call mechanisms. These HTTP extensions are not coordinated, since there has been no standard framework for defining extensions and thus, separation of concerns. This document describes a generic extension mechanism for HTTP, which is designed to address the tension between private agreement and public specification and to accommodate extension of applications using HTTP clients, servers, and proxies. The proposal associates each extension with a globally unique identifier, and uses HTTP header fields to carry the extension identifier and related information between the parties involved in the extended communication."><strong>RFC 2774</strong>: An HTTP Extension Framework</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><a href="https://webconcepts.info/concepts/http-status-code/511" title="The 511 status code indicates that the client needs to authenticate to gain network access."><code class="language-plaintext highlighter-rouge">511 Network Authentication Required</code></a></td>
+      <td style="text-align: left"><a href="https://webconcepts.info/specs/IETF/RFC/6585" title="This document specifies additional HyperText Transfer Protocol (HTTP) status codes for a variety of common situations."><strong>RFC 6585</strong>: Additional HTTP Status Codes</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<hr />
+
+<p style="float : left"><a href="https://webconcepts.info/concepts/http-status-code.json" title="JSON representing all values for this Web Concept">JSON</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="https://github.com/dret/webconcepts" title="Web Concepts on GitHub">Web Concepts</a></li>
+          <li><a href="mailto:erik.wilde@dret.net" title="Site maintained by erik.wilde@dret.net"><code>erik.wilde@dret.net</code></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/dret"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">dret</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/dret"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">dret</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Concepts that matter for the Web. Document your APIs by documenting their Web Concepts.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+
+<!-- Mirrored from webconcepts.info/concepts/http-status-code/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:26:22 GMT -->
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+  
+<!-- Mirrored from apistylebook.com/design/topics/asynchronicity by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:25:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Asynchronicity</title>
+  <meta name="description" content="Collections of resources for API Designers">  
+  
+  <link rel="apple-touch-icon" href="../../images/favicons/favicon.png">
+  <link rel="shortcut icon" href="../../images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="../../images/favicons/favicon.png">
+  
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap-toc.min.css">
+  <link rel="stylesheet" href="../../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="canonical" href="asynchronicity.html">
+  <link rel="alternate" type="application/rss+xml" title="API Stylebook" href="../../feed.xml">
+  <script src="../../js/jquery.min.js" ></script>
+  <script src="../../js/bootstrap.min.js" ></script>
+  <script src="../../js/bootstrap-toc.min.js" ></script>
+  
+  <script type="text/javascript" src="../../js/fingerprint2.min.js" ></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+  new Fingerprint2().get(function(clientId) {
+    ga('create', 'UA-83952820-1', {
+      'storage': 'none',
+      'clientId':clientId,
+      'storeGac': false
+    });
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  });
+
+</script>
+    
+</head>
+
+
+  <body  class="full" data-spy="scroll" data-target="#toc">
+
+    <header>
+  <!-- Static navbar -->
+  <nav class="navbar navbar-fixed-top full">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+        <a class="navbar-brand" href="../../index.html">API Stylebook</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../guidelines/index.html">Design Guidelines</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="index.html">Design Topics</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../../blog/index.html">Blog</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../../about/index.html">About</a>
+            </li>
+          
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav>
+</header>
+    <div class="container main-container">
+      <div class="container main-container full-jumbotron">
+  <div class="jumbotron">
+    <h1>Asynchronicity</h1>
+    <p><p>How to handle long operations</p>
+</p>
+  </div>
+</div>
+
+<div class="container body-container">
+    
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/italian-public-administration.html">Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration) - Interoperability model for the Public Administration</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker">Message broker</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccanti">Non blocking profile</a>
+              
+                <blockquote>
+                In the following chapter the non-blocking interaction profiles will be shown, in which a user submits a request and this is only taken in charge immediately, while its satisfaction can take place in a deferred manner.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccante-rpc-push-basato-su-callback">Non-blocking RPC PUSH profiles (callback based)</a>
+              
+                <blockquote>
+                This particular case, called RPC PUSH, can be used if the user in turn has the possibility to expose a service interface for receiving replies.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profilo-non-bloccante-rpc-pull-busy-waiting">Non-blocking profile RPC PULL (busy waiting)</a>
+              
+                <blockquote>
+                the provider provides a searchable address to verify the processing status of a request
+                </blockquote>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/cloud-foundy-cloud-controller-api-style-guide.html">Cloud Foundry - Cloud Controller API v3 Style Guide (Proposal)</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://github.com/cloudfoundry/cc-api-v3-style-guide#asynchronicity">Asynchronicity</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/google-api-design-guide.html">Google - Google API Design Guide</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://cloud.google.com/apis/design/standard_methods#delete">Delete</a>
+              
+                <blockquote>
+                If the Delete method initiates a long-running operation, it should return the long-running operation.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://cloud.google.com/apis/design/custom_methods#common_custom_methods">Common Custom Methods</a>
+              
+                <blockquote>
+                Cancel an outstanding operation (build, computation etc.)
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://cloud.google.com/apis/design/design_patterns#long_running_operations">Long Running Operation</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/microsoft-rest-api-guidelines.html">Microsoft - Microsoft REST API Guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults">Long running API faults</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#13-long-running-operations">Long running operations</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1324-operations-resource">Operations resource</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1325----operation-resource">Operation resource</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1326-operation-tombstones">Operation tombstones</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1327-the-typical-flow-polling">The typical flow, polling</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1328-the-typical-flow-push-notifications">The typical flow, push notifications</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1329-retry-after">Retry-After</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/redhat-thoughts-on-restful-api-design.html">Red Hat - Thoughts on RESTful API Design</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="http://restful-api-design.readthedocs.io/en/latest/methods.html#asynchronous-requests">Asynchronous Requests</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/zalando-restful-api-guidelines.html">Zalando - RESTFul API Guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="http://zalando.github.io/restful-api-guidelines/events/events.html">Events</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/adidas-api-design-guidelines.html">adidas - adidas API design guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://adidas-group.gitbooks.io/api-guidelines/content/execution/asynchronous-tasks.html">Asynchronous Tasks</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+</div>
+    </div>
+
+    <footer class="footer">
+  <div class="col-sm-12 social">
+    <a href="../../index.html">API Stylebook</a> - Collections of resources for API Designers
+
+    <a href="https://twitter.com/apistylebook"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
+  </div>
+</footer>
+    
+    <script src="../../js/anchor.min.js" ></script>
+    <script language="javascript"> 
+      anchors.options = {
+        placement: 'right'
+      };
+      anchors.add('.anchored');
+    </script>
+    
+    
+  </body>
+
+
+<!-- Mirrored from apistylebook.com/design/topics/asynchronicity by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:25:12 GMT -->
+</html>

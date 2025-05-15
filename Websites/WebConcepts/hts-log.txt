@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 15 May 2025 17:25:52 at https://webconcepts.info +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwr3%e3C2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://webconcepts.info -O1 "C:\Users\Administrator\Documents\departments\Websites\WebConcepts" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:26:21	Error: 	"Not Found" (404) at link https://webconcepts.info/feed.xml (from https://webconcepts.info/)
+17:26:24	Error: 	"Not Found" (404) at link https://webconcepts.info/src/specs/ (from https://webconcepts.info/forking)
+
+HTTrack Website Copier/3.49-2 mirror complete in 35 seconds : 131 links scanned, 128 files written (2695953 bytes overall) [750433 bytes received at 21440 bytes/sec], 2709000 bytes transferred using HTTP compression in 128 files, ratio 23%, 34.7 requests per connection
+(2 errors, 0 warnings, 0 messages)

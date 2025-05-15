@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API Stylebook</title>
+    <description>Collections of resources for API Designers
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 21 Jul 2019 15:55:52 +0000</pubDate>
+    <lastBuildDate>Sun, 21 Jul 2019 15:55:52 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Deliveroo API Design Styleguide added on the API Stylebook</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;/design/guidelines/deliveroo-api-design-guidelines&quot;&gt;Deliveroo API Design guide&lt;/a&gt; has been added the API Stylebook! This is a MUST read for any API designer.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Deliveroo is a British online food delivery company. Orders are placed through its website and then either employed or self-employed bicycle, motorcycle or car couriers transport orders from restaurants to customers.
+Source [wikipedia]https://en.wikipedia.org/wiki/Deliveroo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These guidelines can be sum up with this quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We choose to adopt three general principles. Here’s a shortcut to remember:&lt;br /&gt;
+RESTful, Hypermedia, Fine-grained&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They are &lt;em&gt;internal apis&lt;/em&gt; oriented but contains some interesting considerations and precisions for &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#external-facing&quot;&gt;external APIs&lt;/a&gt; and the duality of internal/external design.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#documenting-apis&quot;&gt;API Documentation&lt;/a&gt; is briefly explained with 3 lines but contains 2 powerful quotes that everyone working with API MUST have in mind:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;API users are both developers and machines&lt;br /&gt;
+Discuss APIs before starting any implementation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This document contains a really interesting section about &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#api-and-domain-modelling&quot;&gt;API and domain modelling&lt;/a&gt; based on Domain Driven Design. This sections helps reader to model resources and their relations.&lt;/p&gt;
+
+&lt;p&gt;Deliveroo engineering teams promote wisely the use of &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#hypermedia--hateoas&quot;&gt;Hypermedia&lt;/a&gt; (but please, just stop using this ugly HATEOAS acronym!).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;More importantly, consumers should not need to construct URLs, instead using only URLs dynamically discovered in responses.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is the first analyzed document to deal with &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#internationalisation-i18n&quot;&gt;internationalization&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Two approaches of versioning are described, one for &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#versioning&quot;&gt;internal facing APIs&lt;/a&gt; and another for &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#public-friendly-apis&quot;&gt;external facing APIs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;How deliveroo engineering team &lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#return-codes-and-errors&quot;&gt;handles errors beyond HTTP status&lt;/a&gt; is simple and brilliant.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The results are not just intended to be acted on by machines, but rather presented to users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://deliveroo.engineering/guidelines/api-design/#caching&quot;&gt;Caching&lt;/a&gt; is explained in depth.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Caching efficiency is a critical aim of well-designed APIs, as it is influential on service performance; cache consistency is as important.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These guidelines are definitely a MUST read for any API designer. If you want to see all topics covered by this document go to the &lt;a href=&quot;/design/guidelines/deliveroo-api-design-guidelines&quot;&gt;Deliveroo API Design guide&lt;/a&gt; on the API Stylebook.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: there’s a minor contradiction concerning HTTP status code return by PATCH (both MUST and MUST NOT return 200), an &lt;a href=&quot;https://github.com/deliveroo/deliveroo.engineering/issues/135&quot;&gt;issue&lt;/a&gt; has been declared.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+        <link>/blog/deliveroo-api-design-styleguide-added-on-the-api-stylebook</link>
+        <guid isPermaLink="true">/blog/deliveroo-api-design-styleguide-added-on-the-api-stylebook</guid>
+        
+        
+        <category>Update</category>
+        
+      </item>
+    
+      <item>
+        <title>Google API Design Guide added on the API Stylebook</title>
+        <description>&lt;p&gt;Google shared its API Design Guide with the community and it has been added to the &lt;a href=&quot;/design/guidelines/google-api-design-guide&quot;&gt;API Stylebook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/design/guidelines/google-api-design-guide&quot;&gt;&lt;img src=&quot;/media/screenshots/google-api-design-guide.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a general design guide for networked APIs. It has been used inside Google since 2014 and is the guide we follow when designing Cloud APIs and other Google APIs. It is shared here to inform outside developers and to make it easier for us all to work together.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This guide is slightly different from the &lt;a href=&quot;/design/guidelines/&quot;&gt;other ones&lt;/a&gt; because it deals with REST &lt;strong&gt;and RPC&lt;/strong&gt; API design focusing on &lt;a href=&quot;http://www.grpc.io/&quot;&gt;gRPC APIs&lt;/a&gt; using &lt;a href=&quot;https://cloud.google.com/apis/design/proto3&quot;&gt;Protocol Buffers v3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This guide applies to both REST APIs and RPC APIs, with specific focus on gRPC APIs. gRPC APIs use Protocol Buffers to define their API surface and API Service Configuration to configure their API services, including HTTP mapping, logging, and monitoring.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;People who are not familiar with &lt;a href=&quot;http://www.grpc.io/&quot;&gt;gRPC&lt;/a&gt; and &lt;a href=&quot;https://cloud.google.com/apis/design/proto3&quot;&gt;proto3&lt;/a&gt; may be taken aback by this guide, but it’s really worth reading for any API designers or anyone wishing to use &lt;a href=&quot;https://cloud.google.com/endpoints/docs/grpc&quot;&gt;Google Cloud Endpoints&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;/design/guidelines/google-api-design-guide#documentation&quot;&gt;documentation section&lt;/a&gt; is really interesting giving guidelines on how to write your API (technical) documentation. If you remember only one thing concerning documentation, let it be this quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In most cases, there’s more to say than just restating the obvious&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Versioning and how to determine if a change is a breaking one or not are very well explained (see &lt;a href=&quot;/design/guidelines/google-api-design-guide#versioning&quot;&gt;Versionning&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;To have a quick look at all the topics covered by the &lt;a href=&quot;/design/guidelines/google-api-design-guide&quot;&gt;Google API Design Guide, click here.&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+        <link>/blog/google-api-design-guide-added-on-the-api-stylebook</link>
+        <guid isPermaLink="true">/blog/google-api-design-guide-added-on-the-api-stylebook</guid>
+        
+        
+        <category>Update</category>
+        
+      </item>
+    
+      <item>
+        <title>The API Stylebook</title>
+        <description>&lt;p&gt;Designing and providing APIs, even a single one, is not an easy task. Beyond purely functionnal matters, e.g. what does an API, there are many other non functionnal requirements to take care of: What is a resource? What is a collection? How to name them? How to handle errors? How to deal with pagination? How to handle asynchronous operations? Which case use to name properties? How to handle versioning? How to …&lt;/p&gt;
+
+&lt;p&gt;To ensure consistency, to ensure maintainability, and above all to ensure good developer experience, these questions must be answered and these answers must be applied consistently.&lt;/p&gt;
+
+&lt;p&gt;All these questions may not come to mind from the outset. They may even come to mind far too late.
+All these questions may not be answered easily. Some will reinvent a square wheel, some will lose themselves searching answers for days.&lt;/p&gt;
+
+&lt;p&gt;But some people already have been through this, some people already have shared all this. What we need is to find this information easily.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;/&quot;&gt;API Stylebook&lt;/a&gt; aims to help API Designers to solve API design matters and build their API design guidelines by providing quick and easy access to selected and categorized resources.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;&lt;a href=&quot;/&quot;&gt;API Stylebook&lt;/a&gt;&lt;/em&gt; name has been inspired by the &lt;em&gt;AP Stylebook&lt;/em&gt; which is a writing style guide for journalists published by the Associated Press.&lt;/p&gt;
+
+&lt;p&gt;In this first version the &lt;a href=&quot;/&quot;&gt;API Stylebook&lt;/a&gt; provides direct links to specific topics within publicly available API Design Guidelines. Instead of reinventing the wheel or searching google for hours, API Designers quickly can find solutions and inspiration from these existing guidelines.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for updates, follow the API Stylebook on &lt;a href=&quot;https://twitter.com/apistylebook&quot;&gt;Twitter &lt;i class=&quot;fa fa-twitter fa-1x&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Sep 2016 14:13:00 +0000</pubDate>
+        <link>/blog/the-api-stylebook</link>
+        <guid isPermaLink="true">/blog/the-api-stylebook</guid>
+        
+        
+        <category>Update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

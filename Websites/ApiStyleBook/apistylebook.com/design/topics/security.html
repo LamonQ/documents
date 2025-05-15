@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+  
+<!-- Mirrored from apistylebook.com/design/topics/security by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:25:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Security</title>
+  <meta name="description" content="Collections of resources for API Designers">  
+  
+  <link rel="apple-touch-icon" href="../../images/favicons/favicon.png">
+  <link rel="shortcut icon" href="../../images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="../../images/favicons/favicon.png">
+  
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap-toc.min.css">
+  <link rel="stylesheet" href="../../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="canonical" href="security.html">
+  <link rel="alternate" type="application/rss+xml" title="API Stylebook" href="../../feed.xml">
+  <script src="../../js/jquery.min.js" ></script>
+  <script src="../../js/bootstrap.min.js" ></script>
+  <script src="../../js/bootstrap-toc.min.js" ></script>
+  
+  <script type="text/javascript" src="../../js/fingerprint2.min.js" ></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+
+  new Fingerprint2().get(function(clientId) {
+    ga('create', 'UA-83952820-1', {
+      'storage': 'none',
+      'clientId':clientId,
+      'storeGac': false
+    });
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+  });
+
+</script>
+    
+</head>
+
+
+  <body  class="full" data-spy="scroll" data-target="#toc">
+
+    <header>
+  <!-- Static navbar -->
+  <nav class="navbar navbar-fixed-top full">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+        <a class="navbar-brand" href="../../index.html">API Stylebook</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../guidelines/index.html">Design Guidelines</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="index.html">Design Topics</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../../blog/index.html">Blog</a>
+            </li>
+          
+            <li 
+              
+              class="nav-item"
+              
+            >
+              <a class="page-link" href="../../about/index.html">About</a>
+            </li>
+          
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav>
+</header>
+    <div class="container main-container">
+      <div class="container main-container full-jumbotron">
+  <div class="jumbotron">
+    <h1>Security</h1>
+    <p><p>Security concerns</p>
+</p>
+  </div>
+</div>
+
+<div class="container body-container">
+    
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/italian-public-administration.html">Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration) - Interoperability model for the Public Administration</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_02.html">Security concepts</a>
+              
+                <blockquote>
+                the section focuses on the use of security protocols and techniques based on the manipulation of network messages. The section will also refer to how the security requirements can be variable depending on the application scenario and the use case.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04_cap_00.html">Security</a>
+              
+                <blockquote>
+                This document describes the security profiles identified by AgID that the providers must use to satisfy the needs expressed through functional and non-functional requirements.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/sicurezza-di-canale-eo-autenticazione-delle-organizzazioni.html">Channel security and / or identification of organizations</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/autenticazione-del-soggetto-richiedente.html">User (consumer) access</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/integrita.html#idas03-integrita-della-payload-del-messaggio-soap">Integrity of SOAP message</a>
+              
+                <blockquote>
+                This profile extends IDAS01 or IDAS02 , adding to the communication between user and provider at the message level integrity of the message payload.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/integrita.html#idar03-integrita-della-payload-messaggio-rest">Integrity of REST message</a>
+              
+                <blockquote>
+                This profile extends IDAR01 or IDAR02 , adding to the communication between user and provider at the message level integrity of the message payload.
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/soluzioni-di-sicurezza.html#soluzione-per-confidenzialita-ed-autenticazione-del-soggetto-fruitore">Confidentiality and user (consumer) authentication</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/soluzioni-di-sicurezza.html#soluzioni-per-la-non-ripudiabilita-della-trasmissione">Non repudiation of transactions</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#sicurezza">REST API safety</a>
+              
+                <blockquote>
+                JOSE, JWT
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#sicurezza">SOAP service safety</a>
+              
+                <blockquote>
+                The Basic Security Profile 1.1, based on the WS-Security extension, suggests the use of SAML 2.0. As mentioned, with respect to authentication and authorization technologies, there are some application domains for which OAuth2 or OpenID are more appropriate.
+                </blockquote>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/atlassian-rest-api-design-guidelines-version-1.html">Atlassian - Atlassian REST API Design Guidelines version 1</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Security">Security</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/ausdto-api-design-guide.html">Australian Digital Transformation Office - API Design Guide</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://apiguide.readthedocs.io/en/latest/principles/security.html">Privacy and security</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/cisco-api-design-guide.html">Cisco - API Design Guide</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://github.com/CiscoDevNet/api-design-guide#31-security">3.1 Security</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/CiscoDevNet/api-design-guide#32-authentication-and-authorization">3.2 Authentication and Representation</a>
+              
+                <blockquote>
+                The REST API MUST use OAuth2 implementation for user authentication and authorization, exclusively
+                </blockquote>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://github.com/CiscoDevNet/api-design-guide#36-http-verbs">3.6.8 Safe and Non-Safe Methods</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/deliveroo-api-design-guidelines.html">Deliveroo - API Design</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="http://deliveroo.engineering/guidelines/api-design/#security"></a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="http://deliveroo.engineering/guidelines/api-design/#caching">Caching</a>
+              
+                <blockquote>
+                External APIs must always use TLS so only direct clients or trusted intermediaries who have our certificates (CDNs, typically) will be able to view the content
+                </blockquote>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/haufe-api-styleguide.html">Haufe - Haufe API style guide</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#api-clients-must-use-an-api-key">API clients MUST use an API Key</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/heroku-http-api-design-guide.html">Heroku - HTTP API Design Guide</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://geemus.gitbooks.io/http-api-design/content/en/foundations/require-secure-connections.html">Require Secure Connections</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/microsoft-rest-api-guidelines.html">Microsoft - Microsoft REST API Guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#148-security">Security</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/zalando-restful-api-guidelines.html">Zalando - RESTFul API Guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="http://zalando.github.io/restful-api-guidelines/security/Security.html">Security</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="http://zalando.github.io/restful-api-guidelines/security/Security.html#must-secure-endpoints-with-oauth-20">Secure Endpoints with OAuth 2.0</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="http://zalando.github.io/restful-api-guidelines/security/Security.html#must-define-and-assign-access-rights-scopes">Define and Assign Access Rights (Scopes)</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title anchored"><a href="../guidelines/adidas-api-design-guidelines.html">adidas - adidas API design guidelines</a></h2>
+        </div>
+        <table class="table">
+          
+            <tr><td>
+              <a target="document" href="https://adidas-group.gitbooks.io/api-guidelines/content/protocol/tls.html">TLS</a>
+              
+            </td></tr>
+          
+            <tr><td>
+              <a target="document" href="https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html">Security</a>
+              
+            </td></tr>
+          
+        </table>
+      </div>
+    
+</div>
+    </div>
+
+    <footer class="footer">
+  <div class="col-sm-12 social">
+    <a href="../../index.html">API Stylebook</a> - Collections of resources for API Designers
+
+    <a href="https://twitter.com/apistylebook"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
+  </div>
+</footer>
+    
+    <script src="../../js/anchor.min.js" ></script>
+    <script language="javascript"> 
+      anchors.options = {
+        placement: 'right'
+      };
+      anchors.add('.anchored');
+    </script>
+    
+    
+  </body>
+
+
+<!-- Mirrored from apistylebook.com/design/topics/security by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 May 2025 17:25:19 GMT -->
+</html>
